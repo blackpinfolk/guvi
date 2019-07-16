@@ -1,2 +1,2 @@
-n=input()
-print(n.count('.')+1)
+nila=input()
+print(nila.count('.')+1)
