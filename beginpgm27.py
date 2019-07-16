@@ -1,6 +1,6 @@
 n=input()
-k=n.isdigit()
+k=n.lstrip('-').replace('.','',1).isdigit()
 if(k==True):
-	print("Yes")
+	print("yes")
 else:
 	print("No")
