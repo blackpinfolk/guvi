@@ -1,4 +1,4 @@
-n=int(input())
-arr=list(map(int,input().split()))
-arr=list(sorted(arr))
-print(*arr)
+v=int(input())
+ar=list(map(int,input().split()))
+ar=list(sorted(ar))
+print(*ar)
