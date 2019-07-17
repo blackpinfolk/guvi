@@ -1,2 +1,2 @@
-nu=int(input())
-print(nu+1)
+nextnum=int(input())
+print(nextnum+1)
