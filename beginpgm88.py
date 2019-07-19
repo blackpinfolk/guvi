@@ -5,7 +5,7 @@ if m>n:
 	high=m
 	low=n
 j=1
-for i in range(high):
+for i in range(high*low):
 	if low*i==high*j:
 		print(n*i)
 		yeah=1
