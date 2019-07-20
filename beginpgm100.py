@@ -1,4 +1,6 @@
-from numpy import prod
 lis=list(input())
 lis=list(map(int,lis))
-print(prod(lis))
+prod=1
+for i in lis:
+	prod=prod*i
+print(prod)
