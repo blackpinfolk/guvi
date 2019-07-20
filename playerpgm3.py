@@ -1,3 +1,3 @@
-numer=list(input())
-numer.reverse()
-print(*numer,sep="")
+nur=list(input())
+nur.reverse()
+print(*nur,sep="")
