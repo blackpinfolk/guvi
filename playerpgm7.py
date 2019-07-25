@@ -5,4 +5,4 @@ for i in range(len(arr)):
 		b=arr[i+1]		#Swapped
 		arr[i]=b
 		arr[i+1]=a
-print(*arr)
+print(*arr,sep="")
