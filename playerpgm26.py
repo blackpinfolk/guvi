@@ -6,7 +6,7 @@ while(i<len(arr) and j+1<len(arr)):
 			del arr[i]
 			i-=1
 			j-=1
-		elif arr[i]!=' ' and j+1==(len(arr)-1):
+		elif arr[i]!=' ' and j+1==(len(arr)):
 			del arr[j+1]
 		i+=1
 		j+=1
