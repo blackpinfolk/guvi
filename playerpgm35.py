@@ -8,5 +8,7 @@ for i in range(len(arr)):
 n=ar.count(min(ar))
 for i in range(n):
 	k=ar.index(min(ar))
+	if arr[k]=='H':
+		arr[k]='h'
 	print(arr[k],end=" ")
 	ar[k]=max(ar)
