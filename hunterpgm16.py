@@ -8,4 +8,4 @@ ar[ind]=(max(arr)**max(arr))
 for i in range(3):
 	mi=ar.index(min(ar))
 	print(arr[mi],end=" ")
-	ar[mi]=(max(arr)**max(arr)
+	ar[mi]=(max(arr)**max(arr))
