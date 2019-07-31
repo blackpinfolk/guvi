@@ -4,8 +4,8 @@ ar=[]
 for i in range(len(arr)):
 	ar.append(abs(arr[i]-k))
 ind=arr.index(k)
-ar[ind]=max(arr)
+ar[ind]=(max(arr)**max(arr))
 for i in range(3):
 	mi=ar.index(min(ar))
 	print(arr[mi],end=" ")
-	ar[mi]=max(arr)
+	ar[mi]=(max(arr)**max(arr)
