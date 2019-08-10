@@ -1,0 +1,5 @@
+n=int(input())
+arr=list(input().split())
+ar=arr.copy()
+ar.sort()
+print("yes" if arr==ar else "no")
