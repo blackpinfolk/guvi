@@ -1,0 +1,5 @@
+n=int(input())
+arr=list(map(int,input().split()))
+mini=min(arr)
+arr.remove(mini)
+print(min(arr))
